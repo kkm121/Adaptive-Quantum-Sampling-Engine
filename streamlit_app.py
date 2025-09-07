@@ -3,7 +3,7 @@ import os
 import streamlit as st
 import numpy as np
 import pandas as pd
-import plotly.graph_objs as go
+import plotly.graph_objects as go
 import plotly.express as px
 from controller import run_aqse, pauli_list_4q, coeffs_4q
 from compare_and_report import run_mode
