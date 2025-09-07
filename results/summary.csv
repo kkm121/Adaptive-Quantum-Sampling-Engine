@@ -1,0 +1,7 @@
+mode,seed,error,final_energy,total_shots_baseline,total_shots_aqse,shots_saved_pct,backend_info
+aqse,1000,"HTTPSConnectionPool(host='globalcatalog.cloud.ibm.com', port=443): Max retries exceeded with url: /api/v1/850b21a7-71de-4e53-9441-1abdd202f35d (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x0000025C85776FD0>: Failed to resolve 'globalcatalog.cloud.ibm.com' ([Errno 11002] getaddrinfo failed)""))",,,,,
+aqse,1001,"HTTPSConnectionPool(host='globalcatalog.cloud.ibm.com', port=443): Max retries exceeded with url: /api/v1/850b21a7-71de-4e53-9441-1abdd202f35d (Caused by NameResolutionError(""<urllib3.connection.HTTPSConnection object at 0x0000025C857779D0>: Failed to resolve 'globalcatalog.cloud.ibm.com' ([Errno 11002] getaddrinfo failed)""))",,,,,
+aqse,1002,SamplerV2.__init__() got an unexpected keyword argument 'service',,,,,
+baseline,1000,,-0.7153060392906749,20480.0,20992.0,0.0,
+baseline,1001,,-0.712759779769367,20480.0,20992.0,0.0,
+baseline,1002,,-0.7144653567233474,20480.0,20992.0,0.0,
